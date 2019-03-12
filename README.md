@@ -10,3 +10,10 @@
 *  ``` lsb_release -a ```
 
 
+
+## Find out why a package is there
+
+```
+apt-cache rdepends --installed $package
+```
+
