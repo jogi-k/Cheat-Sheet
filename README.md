@@ -17,3 +17,10 @@
 apt-cache rdepends --installed $package
 ```
 
+## Cleanup Packages
+
+* apt --fix-broken install
+* apt-get -f install
+* dpkg --force-all --configure -a
+* dpkg --purge --force-depends  xxxxxxxxxx
+*
