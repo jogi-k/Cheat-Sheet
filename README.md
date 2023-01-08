@@ -24,3 +24,8 @@ apt-cache rdepends --installed $package
 * dpkg --force-all --configure -a
 * dpkg --purge --force-depends  xxxxxxxxxx
 *
+
+# Media
+
+## Movies / Videos
+* renaming properly with year etc : ```mnamer```   
