@@ -29,3 +29,8 @@ apt-cache rdepends --installed $package
 
 ## Movies / Videos
 * renaming properly with year etc : ```mnamer```   
+
+# Android
+## Old Menu
+
+* get back old menu on old Apps with adb : ```adb shell input keyevent 82```
