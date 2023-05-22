@@ -34,3 +34,12 @@ apt-cache rdepends --installed $package
 ## Old Menu
 
 * get back old menu on old Apps with adb : ```adb shell input keyevent 82```
+
+
+# eBooks 
+ 
+* great ebook-reader on Linux : foliate , much better than e.g. fbreader
+
+# Markdown
+
+* great markdown-editor on Linux : apostrophe
