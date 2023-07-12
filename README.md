@@ -43,3 +43,27 @@ apt-cache rdepends --installed $package
 # Markdown
 
 * great markdown-editor on Linux : apostrophe
+
+# Docker
+
+## List Containers
+
+### The running ones
+
+```docker ps```
+
+### All
+
+```docker ps --all```
+
+## List images
+
+
+## Delete Container
+
+```docker rm <container-id>```
+
+## Delete Image 
+
+```docker image rm <image-id>```
+
