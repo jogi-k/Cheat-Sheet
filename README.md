@@ -28,7 +28,7 @@ apt-cache rdepends --installed $package
 # Media
 
 ## Movies / Videos
-* renaming properly with year etc : ```mnamer```   
+* renaming videos properly with year etc : ```mnamer```   
 
 # Android
 ## Old Menu
