@@ -25,6 +25,18 @@ apt-cache rdepends --installed $package
 * dpkg --purge --force-depends  xxxxxxxxxx
 *
 
+## Cronjob/Crontab
+
+Execute a script as if it is called from crontab:   
+```/usr/bin/env --ignore-environment  <your-command>```
+
+## bash
+
+Find the Script-Path (see also [stack overflow](https://stackoverflow.com/questions/59895/how-do-i-get-the-directory-where-a-bash-script-is-located-from-within-the-script)  :
+
+```SCRIPT_DIR=$( cd -- "$( dirname -- "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )```
+
+
 # Media
 
 ## Movies / Videos
